@@ -1,11 +1,9 @@
 # Generalizing Monocular 3D Human Pose Estimation in the Wild
 
-**Code and New video demo will be released soon!**
-
 This repository is the implementation of the work presented in:  
 
 >**Luyang Wang, Yan Chen**, Zhenhua Guo, Keyuan Qian, Mude Lin, Hongsheng Li, **[Jimmy S. Ren](http://www.jimmyren.com/)**,
-**Generalizing Monocular 3D Human Pose Estimation in the Wild([arXiv:1904.05512](https://arxiv.org/pdf/1904.05512.pdf))  
+**Generalizing Monocular 3D Human Pose Estimation in the Wild.([International Conf. on Computer Vision - Workshop on Geometry Meets Deep Learning 2019](https://arxiv.org/pdf/1904.05512.pdf))
 [Watch Our Video on YouTube.](https://youtu.be/bGpP_S5fVWc)**
 
 <p align="center">
@@ -26,11 +24,16 @@ You can download our processed datasets in the list. We train the **3D Label Gen
 > - [x] **[AIChallenger](https://drive.google.com/drive/folders/1sXa6zI-2Hv8337Ur0Njfqwgzo8gjL0K4?usp=sharing)**
 > - [x] **[Human3.6M](https://drive.google.com/open?id=1NEevs6Z_HHnuQ3ikSPMd_kj-2VTm3DH5)**
 > - [x] **[Unity](https://drive.google.com/open?id=1wp2Ba9X4jfWXugdaZE3AU_i2WLKy8bjv)**
+> - [x] **[LeftRight2D](https://drive.google.com/open?id=1uD17eDuNWQNwfMUd9CPfwsDwaqrFKJcJ)**
+#### Guidelines
+Download the datasets. All the compressed files suffixes are ***tar.gz***.
 
+    tar -zxvf xxx.tar.gz
+    
+See more details [here](https://github.com/llcshappy/Monocular-3D-Human-Pose/blob/master/Dataset/readme.md).
 ### Pre-trained Model
 We also provide a model pre-trained on 3D Label Generator and Baseline Network, available through [Baidu Cloud](https://pan.baidu.com/download).
-- [ ] **[3D Label Generator]()**
-- [ ] **[Baseline Network]()**
+- [x] **[3D Label Generator](https://drive.google.com/file/d/11SEVXOqvQuqAoUuu6CR6Qb-M77mtZdBw/view?usp=sharing)**
 
 
 ## Installation
@@ -77,16 +80,6 @@ You can run the following code to see the quick demo of the **3D Label Generator
 
     ./demo.sh
     
-
-### Baseline Network
-The code of Baseline Network was tested with Anaconda Python3.6 and Pytorch0.4.1. After install Anaconda and Pytorch:
-#### Step 1. Open the Baseline folder:
-
-    cd Baseline
-
-#### Step2. Training
-
-    ./train.sh
 
 #### Quick Demo
 You can run the following code to see the quick demo of **our trained Baseline Network**.
